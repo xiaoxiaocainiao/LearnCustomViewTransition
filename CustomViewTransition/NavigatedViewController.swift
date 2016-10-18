@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NavigatedViewController.swift
 //  CustomViewTransition
 //
 //  Created by 王雁 on 2016/10/18.
@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NavigatedViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor.cyan
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +22,4 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-
