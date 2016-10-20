@@ -10,7 +10,7 @@ import UIKit
 
 class CustomNavigationAnimation: NSObject, UIViewControllerAnimatedTransitioning {
     private var _reverse = false
-    private var _duration = 1.5
+    private var _duration = 0.5
     
     func setReverse(_ reverse: Bool) {
         _reverse = reverse
