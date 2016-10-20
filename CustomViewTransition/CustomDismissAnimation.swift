@@ -40,7 +40,6 @@ class CustomDismissAnimation: NSObject, UIViewControllerAnimatedTransitioning {
             snapshotView.frame = fromViewController.view.frame.insetBy(dx: fromViewController.view.frame.size.width / 2, dy: fromViewController.view.frame.height / 2)
             toViewController.view.alpha = 1
             }) { (complete) in
-                print("dismiss complete:\(complete),cancel:\(transitionContext.transitionWasCancelled)")
                 if transitionContext.transitionWasCancelled {
                     fromViewController.view.alpha = 1
                 } else {
